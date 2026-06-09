@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/Javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                SRC Sports Academy
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+                <li><a href="register.html"><i class="fas fa-user-plus"></i> Register</a></li>
+                <li><a href="book.html"><i class="fas fa-calendar-check"></i> Book</a></li>
+                <li><a href="events.html"><i class="fas fa-calendar-alt"></i> Events</a></li>
+                <li><a href="activities.html"><i class="fas fa-running"></i> Activities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- BOOKING SECTION -->
+    <section class="booking-section">
+
+        <div class="booking-container">
+
+            <h1>Book Training Session</h1>
+
+            <form id="bookingForm">
+
+                <!-- NAME -->
+                <div class="form-group">
+                    <label for="bookingName">Full Name</label>
+
+                    <input 
+                        type="text"
+                        id="bookingName"
+                        placeholder="Enter your full name"
+                        required
+                        aria-label="Full Name">
+                </div>
+
+                <!-- EMAIL -->
+                <div class="form-group">
+                    <label for="bookingEmail">Email Address</label>
+
+                    <input 
+                        type="email"
+                        id="bookingEmail"
+                        placeholder="Enter your email"
+                        required
+                        aria-label="Email Address">
+                </div>
+
+                <!-- SPORT -->
+                <div class="form-group">
+                    <label for="bookingSport">Choose Sport</label>
+
+                    <select 
+                        id="bookingSport"
+                        required
+                        aria-label="Choose Sport">
+
+                        <option value="">Select Sport</option>
+
+                        <option>Football</option>
+                        <option>Volleyball</option>
+                        <option>Taekwondo</option>
+                        <option>Rugby</option>
+                        <option>Gymnastics</option>
+
+                    </select>
+                </div>
+
+                <!-- DATE -->
+                <div class="form-group">
+                    <label for="bookingDate">Preferred Date</label>
+
+                    <input 
+                        type="date"
+                        id="bookingDate"
+                        required
+                        aria-label="Preferred Date">
+                </div>
+
+                <!-- CAPTCHA -->
+              <div class="captcha-box">
+
+    <label id="captchaQuestion">
+        What is 5 + 3 ?
+    </label>
+
+    <input 
+        type="text"
+        id="captchaInput"
+        placeholder="Enter answer"
+        required>
+
+</div>
+
+                <!-- BUTTON -->
+                <button type="submit">
+                    Book Now
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+<section>
+    <h2>Book</h2>
+    <p>Book your spot at our sports academy!</p>
+</section>
+
+<!-- FOOTER -->
+    <footer class="footer">
+    <div class="footer-container">
+
+        <!-- About -->
+        <div class="footer-section">
+            <h3>SRC Sports Academy</h3>
+            <p>Developing champions through professional training, teamwork, and excellence in sports.</p>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: info@srcsports.com</p>
+            <p>Phone: +233 000 000 000</p>
+            <p>Location:  Accra, Ghana</p>
+        </div>
+
+    </div>
+<div class="social-icons">
+    <a href="#">
+        <img src="../images/facebook.jpg" alt="Follow us on Facebook">
+    </a>
+    <a href="#">
+        <img src="../images/instagram.jpg" alt="Follow us on Instagram">
+    </a>
+    <a href="#">
+        <img src="../images/twitter.jpg" alt="Follow us on Twitter">
+    </a>
+    <a href="#">
+        <img src="../images/youtube.jpg" alt="Follow us on YouTube">
+    </a>
+</div>
+    <div class="footer-bottom">
+        <p>© 2026 SRC Sports Academy | All Rights Reserved</p>
+    </div>
+</footer>
+ <script src="../js/script.js"></script>
+</body>
+</html>

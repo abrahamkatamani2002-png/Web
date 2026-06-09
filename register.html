@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - SRC Sports Academy</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/Javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <!-- Added h1 for SEO and correct hierarchy -->
+                <h1>SRC Sports Academy</h1>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+                <li><a href="register.html"><i class="fas fa-user-plus"></i> Register</a></li>
+                <li><a href="book.html"><i class="fas fa-calendar-check"></i> Book</a></li>
+                <li><a href="events.html"><i class="fas fa-calendar-alt"></i> Events</a></li>
+                <li><a href="activities.html"><i class="fas fa-running"></i> Activities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- REGISTER SECTION -->
+    <main>
+        <section class="register-section">
+            <div class="register-container">
+                <h2>Register Now</h2> <!-- Changed to h2 because site name is h1 -->
+                <form id="registerForm">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your full name" required aria-label="Full Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" required aria-label="Email Address">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sport">Select Sport</label>
+                        <select id="sport" required aria-label="Select Sport">
+                            <option value="">Choose Sport</option>
+                            <option>Football</option>
+                            <option>Volleyball</option>
+                            <option>Taekwondo</option>
+                            <option>Rugby</option>
+                            <option>Gymnastics</option>
+                        </select>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="subscribe">
+                        <label for="subscribe">Subscribe to newsletter</label>
+                    </div>
+
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER (Only one, correctly placed inside body) -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>SRC Sports Academy</h3>
+                <p>Developing champions through professional training, teamwork, and excellence in sports.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@srcsports.com</p>
+                <p>Phone: +233 000 000 000</p>
+                <p>Location: Accra, Ghana</p>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="#"><img src="../images/facebook.jpg" alt="Follow us on Facebook"></a>
+            <a href="#"><img src="../images/instagram.jpg" alt="Follow us on Instagram"></a>
+            <a href="#"><img src="../images/twitter.jpg" alt="Follow us on Twitter"></a>
+            <a href="#"><img src="../images/youtube.jpg" alt="Follow us on YouTube"></a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 SRC Sports Academy | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
